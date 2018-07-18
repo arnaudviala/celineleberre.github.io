@@ -1,0 +1,87 @@
+
+/* Links: Modify the default style for links
+ * (they want them normal, as reguler text, except if the mouse
+ *  cursor is above them)
+ */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+
+
+/* Class "w-icons"
+ *
+ * An <UL> element can received the class "w-icons" to express
+ * that its <LI> children would contain icons. The goal is to
+ * get content aligned after an 'icon-margin"
+ */
+ul.w-icons {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  padding-left: 1.2rem;
+}
+ul.w-icons > li > i.ico {
+  position: absolute;
+  left: 0px;
+}
+ul.w-icons li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Class "w-ico-next"    HAS TO BE defined in material-icons.css
+ *
+ * An <UL> element with the class "w-ico-next" will see all its icons
+ * set to the "next" icon (which is a chevron to the right)
+ */
+/*ul.w-ico-next > li > i.ico::after {
+  content: "navigate_next";
+}*/
+
+
+
+
+/* Class "w-label"
+ *
+ *  when applied to an <ul> element,
+ *  then the <label> child of all <li> is taken out of the flow/stream
+ *  and all <li> are set with a padding-left
+ *  to have an indentation with label inside the margin */
+ ul.w-label li ,
+ ul.w-label-3 li ,
+ ul.w-label-7 li {
+   position: relative;
+   padding-left: 5rem;
+ }
+ ul.w-label li label ,
+ ul.w-label-3 li label ,
+ ul.w-label-7 li label {
+   position: absolute;
+   left: 0px;
+   width: 5rem;
+ }
+ ul.w-label-3 li {
+   padding-left: 3rem;
+ }
+ ul.w-label-3 li label {
+   width: 3rem;
+ }
+ ul.w-label-7 li {
+   padding-left: 7rem;
+ }
+ ul.w-label-7 li label {
+   width: 7rem;
+ }
+
+/* for now, we create just a shortcut to have "flex" and "space-between" */
+.w-flex-sb {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
