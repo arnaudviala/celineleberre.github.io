@@ -103,6 +103,43 @@ ul.grey {
 }
 
 
+/*
+ *
+ * EXPERIENCES
+ *
+ */
+.xp {
+  margin: 5mm; /* on all sides */
+}
+.xp .date {
+  width: 2cm;
+  display: inline-block;
+  vertical-align: top;
+}
+.xp .job {
+  box-sizing: border-box;
+  width: 17.5cm;
+  display: inline-block;
+  border-left: 3px solid green;
+  padding-left: 3mm;
+}
+.xp .job .title {
+  font-weight: bold;
+}
+.xp .job .empl {
+  font-style: italic;
+}
+.xp .job li {
+  margin: 1mm 0mm;
+  margin-left: 2mm;
+  text-indent: 0;
+  list-style-type: disc;
+  list-style-position: outside;
+}
+.xp .job li.keywords {
+  list-style: none;
+}
+
 
 
 /*
