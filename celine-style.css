@@ -22,8 +22,13 @@ ul {
 li {
   list-style-type: none;  /* hide <LI> bullets */
 }
+/* ... except if inside a <ul class="w-bullets"> */
+ul.w-bullets li {
+  list-style-type: disc;
+}
 
 /* all <label> contained inside <UL class="w-label-7"> would have a right aligned text */
+ul.w-label label ,
 ul.w-label-7 label {
   text-align: right;
   font-weight: bold;
@@ -31,12 +36,15 @@ ul.w-label-7 label {
 /*ul.w-label-7 label:after {
   content: ": ";
 }*/
+ul.w-label li span ,
 ul.w-label-7 li span {
   display: inline-block;
   border-left: 3px solid white;
   margin-left: 2mm; /* with extra space around the left-border */
   padding-left: 2mm;
 }
+ul.w-label li span ,
+ul.w-label label ,
 ul.w-label-7 li span ,
 ul.w-label-7 label {
   padding-top: 1mm;
@@ -92,4 +100,36 @@ ul.grey {
 #contact .email ,
 #contact .phone {
   color: green;
+}
+
+
+
+
+/*
+ *
+ * The end, using two columns
+ *
+ */
+#two-columns > section {
+  width: 48%;
+}
+
+#interests-languages h4 {   /* special case for the right column */
+  padding-left: 0;
+}
+
+#interests-languages ul > li > span {
+  border-left-color: green;
+  margin-left: 1ex;
+}
+
+#interests-languages ul > li > label {
+  background-color: #CCC;
+  padding-right: 1ex;
+}
+ul#interests {
+  padding-left: 7mm;
+}
+ul#languages {
+  padding-left: 0;
 }
