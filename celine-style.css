@@ -1,0 +1,50 @@
+.page {
+  position: relative;
+}
+
+#job {
+  margin-top: 1cm;
+  margin-bottom: 2cm;
+}
+#job .title {
+  display: inline-block;  /* doing so, the width is automatically adjusted */
+  text-transform: uppercase;
+  background-color: green;
+  color: white;
+  margin: 0;
+  padding: 2mm 2mm 2mm 10mm;     /* order: top, right, bottom and left */
+}
+#job .subtitle {
+  display: block;
+  padding-left: 10mm;
+  color: green;
+}
+
+#contact {
+  position: absolute;
+  /* relative to the parent with "position:relative;" property, which is '.page' */
+  right: 1cm;
+  top: 1cm;
+  width: 6cm;
+  text-align: right;
+}
+
+#contact h4,
+#contact li > i > label { /* oui, je fais disparaître les <label> */
+  display: none;
+}
+
+#contact h1 ,
+#contact ul {
+  margin: 0;
+}
+
+#contact h1 ,
+#contact .email ,
+#contact .phone {
+  color: green;
+}
+
+#contact li {
+  list-style-type: none;  /* hide <LI> bullets */
+}
