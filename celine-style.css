@@ -60,8 +60,9 @@ ul.grey {
  *
  */
 #job {
-  margin-top: 1cm;
+  padding-top: 1cm;
   margin-bottom: 1cm;
+  position: relative;
 }
 #job .title {
   display: inline-block;  /* doing so, the width is automatically adjusted */
