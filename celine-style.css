@@ -120,14 +120,33 @@ ul.grey {
   margin-top: 1cm;
 }
 .xp {
-  margin: 5mm; /* on all sides */
+  margin: 5mm 0mm;
+  position: relative;
+  padding-left: 2.5cm;
 }
 .xp .date {
-  width: 2cm;
+  width: 2.5cm;
   display: inline-block;
   vertical-align: top;
+  text-align: right;
+  font-weight: bold;
+  box-sizing: border-box;
+  background-color: #CCC;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  padding: 2mm;
+}
+/* To center the date vertically is not "easy" in CSS.
+ * I use a trick top=50% + negative margin-top of half the size.
+ * Not perfect but it seems to work...
+ */
+.xp .date {
+  top: 50%;
+  margin-top: -4.4mm;
 }
 .xp .job {
+  padding: 2mm;
   box-sizing: border-box;
   width: 17.5cm;
   display: inline-block;
