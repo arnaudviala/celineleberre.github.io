@@ -56,7 +56,7 @@ ul.grey {
 
 /*
  *
- * <header> containing "#job" and "#contact" objects
+ * <header> containing "#job", "#contact" and "#photo" objects
  *
  */
 #job {
@@ -102,6 +102,19 @@ ul.grey {
   color: green;
 }
 
+#photo {
+  display: none;
+}
+header.with-photo #contact {
+  right: 4cm;
+}
+header.with-photo #photo {
+  display: block;
+  position: absolute;
+  width: 3cm;
+  top: 0.5cm;
+  right: 0.5cm;
+}
 
 /*
  * Header of the 2nd page
