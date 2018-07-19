@@ -136,6 +136,7 @@ header.with-photo #photo {
   margin: 4mm 0mm;
   position: relative;
   padding-left: 2.5cm;
+  z-index: 1;
 }
 .xp .date {
   width: 2.5cm;
@@ -149,6 +150,7 @@ header.with-photo #photo {
   left: 0px;
   top: 0px;
   padding: 2mm;
+  z-index: -1;
 }
 /* To center the date vertically is not "easy" in CSS.
  * I use a trick top=50% + negative margin-top of half the size.
@@ -165,6 +167,7 @@ header.with-photo #photo {
   display: inline-block;
   border-left: 3px solid green;
   padding-left: 3mm;
+  z-index: 2;
 }
 .xp .job .title {
   font-weight: bold;
