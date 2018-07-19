@@ -104,6 +104,14 @@ ul.grey {
 
 
 /*
+ * Header of the 2nd page
+ */
+.pageheader {
+  border-bottom: 1px solid green;
+  margin: 0.5cm;
+}
+
+/*
  *
  * EXPERIENCES
  *
