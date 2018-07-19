@@ -61,7 +61,7 @@ ul.grey {
  */
 #job {
   margin-top: 1cm;
-  margin-bottom: 2cm;
+  margin-bottom: 1cm;
 }
 #job .title {
   display: inline-block;  /* doing so, the width is automatically adjusted */
@@ -120,7 +120,7 @@ ul.grey {
   margin-top: 1cm;
 }
 .xp {
-  margin: 5mm 0mm;
+  margin: 4mm 0mm;
   position: relative;
   padding-left: 2.5cm;
 }
