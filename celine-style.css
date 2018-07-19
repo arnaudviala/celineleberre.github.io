@@ -2,6 +2,15 @@
   position: relative;
 }
 
+h4bis {
+  padding: 0 0 0 1cm;
+  border-bottom: 3px solid green;
+  display: block;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 0mm;
+}
+
 /*
  *
  * Common to many things
@@ -200,7 +209,16 @@ header.with-photo #photo {
  * The end, using two columns
  *
  */
-#two-columns {
+#bandeau {
+  margin-top: 3cm;
+}
+#bandeau > section {
+  width: 30%;
+}
+ #bandeau < section {
+  width: 58%;
+}
+ #two-columns {
   margin-top: 1cm;
 }
 #two-columns > section {
