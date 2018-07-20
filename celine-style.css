@@ -208,7 +208,10 @@ header.with-photo #photo {
 }
 .xp .job .sstitre {
   font-style: italic;
-  font-weight: bold;
+    /* font-weight: bold; */
+    /* border: 1px solid red; */
+    display: block;
+    margin: 2mm 0;
 }
 .xp .job ul {
   margin: 0;
@@ -274,6 +277,7 @@ header.with-photo #photo {
    * and blue border (right span) due to the "bold" font on the left.
    * A quick solution is to force a min-height to both cells */
   min-height: 0.75cm;    box-sizing: border-box;
+}
 }
 #left ul {
   padding-left: 0;
