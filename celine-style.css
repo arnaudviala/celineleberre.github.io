@@ -250,6 +250,9 @@ header.with-photo #photo {
 	font-size: 90%;
 	margin-top: 2mm;
 }
+.xp.internship li:before {
+  content: "";
+}
 
 
 
