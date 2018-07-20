@@ -133,6 +133,9 @@ div.hr {
 #contact .phone {
   color: #36a9e1;
 }
+#contact .email {
+  margin-top: 3mm;
+}
 
 .two-phones {
   font-size: smaller;
