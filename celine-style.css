@@ -122,6 +122,11 @@ ul.grey {
 #contact ul {
   margin: 0;
 }
+div.hr {
+  margin-top: 2mm;
+  border-top: 1px solid #CCC;
+  margin-bottom: 2mm;
+}
 
 #contact h1 ,
 #contact .email ,
