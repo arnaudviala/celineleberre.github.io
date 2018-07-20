@@ -244,6 +244,8 @@ header.with-photo #photo {
 }
 .xp .job li.keywords {
   margin-left:7mm;
+	font-size: 90%;
+	margin-top: 2mm;
 }
 
 
