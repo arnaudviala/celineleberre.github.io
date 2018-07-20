@@ -9,7 +9,7 @@
  */
 h4 {
   padding: 0 0 0 1cm;
-  border-bottom: 3px solid green;
+  border-bottom: 3px solid #36a9e1;
   display: block;
   text-transform: uppercase;
   margin: 0;
@@ -51,7 +51,7 @@ ul.w-label-7 label {
   padding-bottom: 1mm;
 }
 ul.grey {
-  background-color: #CCC;
+  background-color: #EEE;
 }
 
 /*
@@ -67,7 +67,7 @@ ul.grey {
 #job .title {
   display: inline-block;  /* doing so, the width is automatically adjusted */
   text-transform: uppercase;
-  background-color: green;
+  background-color: #36a9e1;
   color: white;
   margin: 0;
   padding: 2mm 2mm 2mm 10mm;     /* order: top, right, bottom and left */
@@ -75,7 +75,7 @@ ul.grey {
 #job .subtitle {
   display: block;
   padding-left: 10mm;
-  color: green;
+  color: #36a9e1;
 }
 
 #contact {
@@ -100,7 +100,7 @@ ul.grey {
 #contact h1 ,
 #contact .email ,
 #contact .phone {
-  color: green;
+  color: #36a9e1;
 }
 
 #photo {
@@ -121,7 +121,7 @@ header.with-photo #photo {
  * Header of the 2nd page
  */
 .pageheader {
-  border-bottom: 1px solid green;
+  border-bottom: 1px solid #36a9e1;
   margin: 0.5cm;
 }
 
@@ -146,7 +146,7 @@ header.with-photo #photo {
   text-align: right;
   font-weight: bold;
   box-sizing: border-box;
-  background-color: #CCC;
+  background-color: #EEE;
   position: absolute;
   left: 0px;
   top: 0px;
@@ -166,7 +166,7 @@ header.with-photo #photo {
   box-sizing: border-box;
   width: 17.5cm;
   display: inline-block;
-  border-left: 3px solid green;
+  border-left: 3px solid #36a9e1;
   padding-left: 3mm;
   z-index: 2;
 }
@@ -216,12 +216,12 @@ header.with-photo #photo {
 }
 
 #interests-languages ul > li > span {
-  border-left-color: green;
+  border-left-color: #36a9e1;
   margin-left: 1ex;
 }
 
 #interests-languages ul > li > label {
-  background-color: #CCC;
+  background-color: #EEE;
   padding-right: 1ex;
 }
 ul#interests {
