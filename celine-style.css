@@ -87,7 +87,7 @@ ul.grey {
  */
 #job {
   padding-top: 1cm;
-  margin-bottom: 1.5cm;
+  margin-bottom: 1cm;
   position: relative;
 }
 #job .title {
@@ -169,7 +169,7 @@ header.with-photo #photo {
  *
  */
 #experiences h4 {
-  margin-top: 1cm;
+  margin-top: 0.7cm;
 }
 .xp {
   margin: 4mm 0mm;
@@ -260,7 +260,7 @@ header.with-photo #photo {
  */
 
 #two-columns {
-  margin-top: 1cm;
+  margin-top: 0cm;
 }
 #two-columns #left {
     width: 45%;
