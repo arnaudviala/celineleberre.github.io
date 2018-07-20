@@ -2,6 +2,26 @@
   position: relative;
 }
 
+/* Declare the font "Aller" ... */
+@font-face {
+  font-family: "Aller";
+  src: url("fonts/Aller_Rg.ttf");
+}
+@font-face {
+  font-family: "Aller";
+  src: url("fonts/Aller_Bd.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Aller";
+  src: url("fonts/Aller_It.ttf");
+  font-style: italic;
+}
+/* ... and use it as default font for whole document body */
+body {
+  font-family: "Aller";
+}
+
 /*
  *
  * Common to many things
