@@ -166,11 +166,11 @@ header.with-photo #photo {
 .xp {
   margin: 4mm 0mm;
   position: relative;
-  padding-left: 2.5cm;
+  padding-left: 2.8cm;
   z-index: 1;
 }
 .xp .date {
-  width: 2.5cm;
+  width: 2.8cm;
   display: inline-block;
   vertical-align: top;
   text-align: right;
