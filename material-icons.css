@@ -1,0 +1,48 @@
+
+/**
+ * MATERIAL-ICONS STUFF
+ **/
+
+/* copied from : https://fonts.googleapis.com/icon?family=Material+Icons
+ * BEGIN ORIGINAL
+ */
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/materialicons.woff2) format('woff2');
+}
+
+.ico,  /* ARV: wasn't in original code, added this short classname */
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+/* END ORIGINAL
+ * then we use classname to append icon */
+.ico-email::after {                 content: "email"; }
+.ico-phone::after {                 content: "phone"; }
+.ico-videocam::after {                 content: "videocam"; }
+.ico-public::after {                 content: "public"; }
+.ico-person::after {                 content: "person"; }
+.ico-location::after {           content: "location_on"; }
+.ico-next::after {           content: "navigate_next"; }
+.ico-key::after {           content: "vpn_key"; }
+.ico-school::after {           content: "school"; }
+.ico-business::after {           content: "business"; }
+.ico-forward::after {           content: "forward"; }
+.ico-share::after {           content: "share"; }
+.ico-blank::after {           content: "email"; opacity: 0.0; visibility: hidden; }

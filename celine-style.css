@@ -223,14 +223,27 @@ header.with-photo #photo {
 }
 .xp .job li {
   margin: 1mm 0mm;
-  text-indent: -2.75mm;
-  padding-left: 3mm;
+  margin-left: 5mm;
+  position: relative;
 }
 .xp .job li:before {
   content: "- ";
 }
+.xp .job li:before {
+  position: absolute;
+  top: 0.5mm;
+  margin-left: -5mm;
+  font-family: 'Material Icons';
+  color: grey;
+  content: "navigate_next ";
+}
+.xp .job li.keywords:before {
+  content: "vpn_key ";
+  margin-left: -6mm;
+  top: 0mm;
+}
 .xp .job li.keywords {
-  list-style: none;
+  margin-left:7mm;
 }
 
 
