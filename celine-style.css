@@ -17,6 +17,12 @@
   src: url("fonts/Aller_It.ttf");
   font-style: italic;
 }
+@font-face {
+  font-family: "Aller";
+  src: url("fonts/Aller_BdIt.ttf");
+  font-style: italic;
+  font-weight: bold;
+}
 /* ... and use it as default font for whole document body */
 body {
   font-family: "Aller";
