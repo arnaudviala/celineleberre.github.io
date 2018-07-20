@@ -276,6 +276,9 @@ header.with-photo #photo {
 }
 
 /* using #left, it's common to #languages and #education */
+#left ul > li {
+  margin: 2mm 0;
+}
 #left ul > li > span.l {
   background-color: #EEE;
   padding-right: 1ex;
