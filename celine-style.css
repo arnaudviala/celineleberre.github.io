@@ -210,16 +210,8 @@ header.with-photo #photo {
  * The end, using two columns
  *
  */
-#bandeau {
-  margin-top: 3cm;
-}
-#bandeau > section {
-  width: 30%;
-}
- #bandeau < section {
-  width: 58%;
-}
- #two-columns {
+
+#two-columns {
   margin-top: 1cm;
 }
 #two-columns > section {
@@ -246,4 +238,19 @@ ul#interests {
 }
 ul#languages {
   padding-left: 0;
+}
+
+
+
+/*
+ * for CV2
+ */
+#bandeau {
+  margin-top: 3cm;
+}
+#left-colonne {
+  width: 25%;
+}
+#right-colonne {
+  width: 73%;
 }
