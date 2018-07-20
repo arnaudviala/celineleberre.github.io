@@ -109,7 +109,7 @@ ul.grey {
   /* relative to the parent with "position:relative;" property, which is '.page' */
   right: 1cm;
   top: 1cm;
-  width: 6cm;
+  width: 8cm;
   text-align: right;
 }
 
@@ -127,6 +127,10 @@ ul.grey {
 #contact .email ,
 #contact .phone {
   color: #36a9e1;
+}
+
+.two-phones {
+  font-size: smaller;
 }
 
 #photo {
