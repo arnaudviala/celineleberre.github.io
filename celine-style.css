@@ -228,7 +228,9 @@ header.with-photo #photo {
   content: "- ";
 }
 .xp .job li.keywords {
-  list-style: none;
+	list-style: none;
+	font-size: 90%;
+	margin-top: 2mm;
 }
 
 
