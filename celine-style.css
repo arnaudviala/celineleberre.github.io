@@ -254,6 +254,9 @@ header.with-photo #photo {
   content: "";
 }
 
+.xp.internship li {
+  margin-left:0mm;
+}
 
 
 /*
