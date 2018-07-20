@@ -239,32 +239,61 @@ header.with-photo #photo {
 #two-columns {
   margin-top: 1cm;
 }
-#two-columns > section {
-  width: 48%;
+#two-columns #left {
+    width: 45%;
 }
-#education ul {
-  padding-left: 7mm;
+#two-columns #right {
+    width: 51%;
 }
-#interests-languages h4 {   /* special case for the right column */
+#left h4 {
+  padding-left: 5mm;
+}
+#right h4 {   /* special case for the right column */
   padding-left: 0;
 }
 
-#interests-languages ul > li > span {
-  border-left-color: #36a9e1;
-  margin-left: 1ex;
-}
-
-#interests-languages ul > li > label {
+/* using #left, it's common to #languages and #education */
+#left ul > li > span.l {
   background-color: #EEE;
   padding-right: 1ex;
+  text-align: right;
+  display: inline-block;
+  width: 2.8cm;
+  font-weight: bold;
 }
-ul#interests {
-  padding-left: 7mm;
+#left ul > li > span.r {
+  border-left: 3px solid #36a9e1;
+  padding-left: 1ex;
+  display: inline-block;
 }
-ul#languages {
+#left ul li span {
+  padding-top: 1mm;
+  padding-bottom: 1mm;
+  vertical-align: top;
+  /* There's an alignment problem - 1px - between grey background (left span)
+   * and blue border (right span) due to the "bold" font on the left.
+   * A quick solution is to force a min-height to both cells */
+  min-height: 0.75cm;    box-sizing: border-box;
+}
+#left ul {
   padding-left: 0;
 }
 
+
+#interests ul {
+  padding-left: 2mm;
+}
+
+
+#interests ul li {
+  padding-top: 2mm;
+  padding-bottom: 2mm;
+  padding-left: 2mm;
+  list-style: none;
+}
+#interests ul > li ~ li { /* apply to all <LI> elements except first one */
+  border-top: 1px solid #36a9e1;
+}
 
 
 /*
