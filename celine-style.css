@@ -15,7 +15,7 @@
 @font-face {
   font-family: "Aller";
   src: url("fonts/Aller_It.ttf");
-  font-style: italic;
+  font-style: italic;contact
 }
 @font-face {
   font-family: "Aller";
@@ -138,6 +138,9 @@ div.hr {
 }
 #contact .email {
   margin-top: 3mm;
+}
+#contact .linkedin {
+  color: #000080;
 }
 
 .two-phones {
