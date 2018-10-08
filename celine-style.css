@@ -387,20 +387,20 @@ header.with-photo #photo {
 }
 #ct-two-columns #ct-left ,
 #ct-two-columns #ct-right {
-    width: 48%;
+  width: 48%;
 }
 #ct-two-columns #ct-left {
-    width: 50%;
+  width: 50%;
 }
 #ct-two-columns #ct-right {
-    width: 46%;
+  width: 46%;
 }
 
 #ct-two-columns h5 {
-    margin-top: 3mm;
-    margin-bottom: 0;
-    font-size: 1em;
-    /*color: #008;*/
+  margin-top: 3mm;
+  margin-bottom: 1mm;
+  font-size: 1em;
+  /*color: #008;*/
 }
 #ct-left h5 { /* padding pour le sous-titre */
   padding-left: 5mm;
