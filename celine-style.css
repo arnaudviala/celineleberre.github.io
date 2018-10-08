@@ -15,7 +15,7 @@
 @font-face {
   font-family: "Aller";
   src: url("fonts/Aller_It.ttf");
-  font-style: italic;
+  font-style: italic;contact
 }
 @font-face {
   font-family: "Aller";
@@ -40,6 +40,12 @@ h4 {
   text-transform: uppercase;
   margin: 0;
   margin-bottom: 0mm;
+}
+h4 { /* Celine style */
+  background-color: #36a9e1;
+  color: white;
+  padding: 1mm 0 1mm 6mm;
+  border: none;
 }
 ul {
   margin: 1mm 0 1mm 0;  /* top, right, bottom, left */
@@ -90,7 +96,7 @@ ul.red {
  */
 #job {
   padding-top: 1cm;
-  margin-bottom: 1cm;
+  margin-bottom: 1.5cm;
   position: relative;
 }
 #job .title {
@@ -137,7 +143,10 @@ div.hr {
   color: #36a9e1;
 }
 #contact .email {
-  margin-top: 3mm;
+  margin-top: 1.5mm;
+}
+#contact .linkedin {
+  color: #000080;
 }
 
 .two-phones {
@@ -203,7 +212,8 @@ header.with-photo #photo {
   margin-top: -4.4mm;
 }
 .xp .job {
-  padding: 2mm;
+  /* commented to reduce the size of job experience
+  padding: 2mm;*/
   box-sizing: border-box;
   width: 17.5cm;
   display: inline-block;
@@ -317,14 +327,16 @@ header.with-photo #photo {
     width: 51%;
 }
 #two-columns h4 {
-    margin-top: 5mm;
+    margin-top: 4mm;
 }
-#left h4 {
+/* NOT NEEDED WITH CELINE-STYLE USING BACKGROUND-COLOR
+#left h4 ,
+#right h4 {
   padding-left: 5mm;
 }
-#right h4 {   /* special case for the right column */
+#right h4 {   /* special case for the right column
   padding-left: 0;
-}
+}*/
 
 /* using #left, it's common to #languages and #education */
 #left ul > li {
@@ -382,67 +394,51 @@ header.with-photo #photo {
 #ct-two-columns {
   margin-top: 0cm;
 }
-#ct-two-columns #left {
-    width: 45%;
+#ct-two-columns #ct-left ,
+#ct-two-columns #ct-right {
+  width: 48%;
 }
-#ct-two-columns #right {
-    width: 51%;
+#ct-two-columns #ct-left {
+  width: 50%;
 }
-#ct-two-columns h4 {
-    margin-top: 5mm;
-}
-#ct-left h4 { /* padding pour le sous-titre */
-  padding-left: 5mm;
-}
-#ct-right h4 {   /* special case for the right column */
-  padding-left: 0;
+#ct-two-columns #ct-right {
+  width: 46%;
 }
 
-/* using #left, it's common to #languages and #education */
-#ct-left ul > li {
-  margin: 2mm 0;
+#ct-two-columns h5 {
+  margin-top: 3mm;
+  margin-bottom: 1mm;
+  font-size: 1em;
+  /*color: #008;*/
+  padding-left: 6mm;
 }
-#ct-left ul > li > span.l {
-  background-color: #EEE;
-  padding-right: 1ex;
-  text-align: right;
-  display: inline-block;
-  width: 2.8cm;
-  font-weight: bold;
+#ct-two-columns ul {
+  margin: 0;
+  padding-left: 1cm;
 }
-#ct-left ul > li > span.r {
-  border-left: 3px solid #36a9e1;
-  padding-left: 1ex;
-  display: inline-block;
+#ct-two-columns #ct-right ul {
+  padding-right: 3mm; /* to be sure text is not too close to the edge */
 }
-#ct-left ul li span {
-  padding-top: 1mm;
-  padding-bottom: 1mm;
-  vertical-align: middle;
-  /* There's an alignment problem - 1px - between grey background (left span)
-   * and blue border (right span) due to the "bold" font on the left.
-   * A quick solution is to force a min-height to both cells */
-  min-height: 0.75cm;    box-sizing: border-box;
-}
-#ct-left ul {
-  padding-left: 0;
+#ct-two-columns  ul > li ~ li { /* apply to all <LI> elements except first one */
+  margin-top: 3px; /* some space between <li> element */
 }
 
-
-#ct-interests ul {
-  padding-left: 2mm;
+/** Comment the next two CSS rules if you don't want the '>'
+ * as a bullet
+ */
+#ct-two-columns ul li {
+  position: relative;
+  list-style-type: none;
+}
+#ct-two-columns ul li:before {
+  position: absolute;
+  top: 0.5mm;
+  margin-left: -5mm;
+  font-family: 'Material Icons';
+  color: #666;
+  content: "navigate_next ";
 }
 
-
-#interests ul li {
-  padding-top: 2mm;
-  padding-bottom: 2mm;
-  padding-left: 2mm;
-  list-style: none;
-}
-#interests ul > li ~ li { /* apply to all <LI> elements except first one */
-  border-top: 1px solid #36a9e1;
-}
 
 /*
  * for CV2
