@@ -26,6 +26,11 @@
 /* ... and use it as default font for whole document body */
 body {
   font-family: "Aller";
+  font-size: 88%;
+}
+
+h3 { /* Celine style */
+  font-size: 130%;
 }
 
 /*
@@ -35,14 +40,14 @@ body {
  */
 h4 {
   padding: 0 0 0 1cm;
-  border-bottom: 3px solid #436cbd;
+  border-bottom: 3px solid #3f60a4;
   display: block;
   text-transform: uppercase;
   margin: 0;
   margin-bottom: 0mm;
 }
 h4 { /* Celine style */
-  background-color: #436cbd;
+  background-color: #3f60a4;
   color: white;
   padding: 1mm 0 1mm 6mm;
   border: none;
@@ -95,29 +100,30 @@ ul.red {
  *
  */
 #job {
-  padding-top: 1cm;
-  margin-bottom: 1.5cm;
+  padding-top: 1.2cm;
+  margin-bottom: 2.5cm;
   position: relative;
 }
 #job .title {
   display: inline-block;  /* doing so, the width is automatically adjusted */
   text-transform: uppercase;
-  background-color: #436cbd;
+  background-color: #3f60a4;
   color: white;
   margin: 0;
-  padding: 2mm 2mm 2mm 10mm;     /* order: top, right, bottom and left */
+  padding: 2mm 2mm 2mm 6mm;     /* order: top, right, bottom and left */
 }
 #job .subtitle {
   display: block;
-  padding-left: 10mm;
-  color: #436cbd;
+  padding-left: 6mm;
+  padding-top: 2mm;  
+  color: #3f60a4;
 }
 
 #contact {
   position: absolute;
   /* relative to the parent with "position:relative;" property, which is '.page' */
   right: 1cm;
-  top: 1cm;
+  top: 1.2cm;
   width: 8cm;
   text-align: right;
 }
@@ -140,10 +146,10 @@ div.hr {
 #contact h1 ,
 #contact .email ,
 #contact .phone {
-  color: #436cbd;
+  color: #3f60a4;
 }
 #contact .email {
-  margin-top: 1.5mm;
+  margin-top: 5mm;
 }
 #contact .linkedin {
   color: #000080;
@@ -171,8 +177,9 @@ header.with-photo #photo {
  * Header of the 2nd page
  */
 .pageheader {
-  border-bottom: 1px solid #436cbd;
+  border-bottom: 1px solid #3f60a4;
   margin: 0.5cm;
+  margin-bottom: 0.7cm;
 }
 
 /*
@@ -217,7 +224,7 @@ header.with-photo #photo {
   box-sizing: border-box;
   width: 17.5cm;
   display: inline-block;
-  border-left: 3px solid #436cbd;
+  border-left: 3px solid #3f60a4;
   padding-left: 3mm;
   z-index: 2;
 }
@@ -306,7 +313,7 @@ header.with-photo #photo {
   box-sizing: border-box;
   width: 17.5cm;
   display: inline-block;
-  border-left: 3px solid #436cbd;
+  border-left: 3px solid #3f60a4;
   padding-left: 3mm;
   z-index: 2;
 }
@@ -351,7 +358,7 @@ header.with-photo #photo {
   font-weight: bold;
 }
 #left ul > li > span.r {
-  border-left: 3px solid #436cbd;
+  border-left: 3px solid #3f60a4;
   padding-left: 1ex;
   display: inline-block;
 }
@@ -381,7 +388,7 @@ header.with-photo #photo {
   list-style: none;
 }
 #interests ul > li ~ li { /* apply to all <LI> elements except first one */
-  border-top: 1px solid #436cbd;
+  border-top: 1px solid #3f60a4;
 }
 
 
