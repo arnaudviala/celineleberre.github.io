@@ -100,7 +100,7 @@ ul.red {
  *
  */
 #job {
-  padding-top: 1.2cm;
+  padding-top: 1cm;
   margin-bottom: 2.5cm;
   position: relative;
 }
@@ -123,7 +123,7 @@ ul.red {
   position: absolute;
   /* relative to the parent with "position:relative;" property, which is '.page' */
   right: 1cm;
-  top: 1.2cm;
+  top: 1.4cm;
   width: 8cm;
   text-align: right;
 }
