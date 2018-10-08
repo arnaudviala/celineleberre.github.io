@@ -384,7 +384,7 @@ header.with-photo #photo {
 #interests ul li {
   padding-top: 2mm;
   padding-bottom: 2mm;
-  padding-left: 2mm;
+  padding-left: 4mm;
   list-style: none;
 }
 #interests ul > li ~ li { /* apply to all <LI> elements except first one */
