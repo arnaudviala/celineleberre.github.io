@@ -41,6 +41,12 @@ h4 {
   margin: 0;
   margin-bottom: 0mm;
 }
+h4 { /* Celine style */
+  background-color: #36a9e1;
+  color: white;
+  padding: 1mm 0 1mm 6mm;
+  border: none;
+}
 ul {
   margin: 1mm 0 1mm 0;  /* top, right, bottom, left */
 }
@@ -90,7 +96,7 @@ ul.red {
  */
 #job {
   padding-top: 1cm;
-  margin-bottom: 1cm;
+  margin-bottom: 1.5cm;
   position: relative;
 }
 #job .title {
@@ -137,7 +143,7 @@ div.hr {
   color: #36a9e1;
 }
 #contact .email {
-  margin-top: 3mm;
+  margin-top: 1.5mm;
 }
 #contact .linkedin {
   color: #000080;
@@ -322,12 +328,14 @@ header.with-photo #photo {
 #two-columns h4 {
     margin-top: 5mm;
 }
-#left h4 {
+/* NOT NEEDED WITH CELINE-STYLE USING BACKGROUND-COLOR
+#left h4 ,
+#right h4 {
   padding-left: 5mm;
 }
-#right h4 {   /* special case for the right column */
+#right h4 {   /* special case for the right column
   padding-left: 0;
-}
+}*/
 
 /* using #left, it's common to #languages and #education */
 #left ul > li {
@@ -401,7 +409,7 @@ header.with-photo #photo {
   margin-bottom: 1mm;
   font-size: 1em;
   /*color: #008;*/
-  padding-left: 1cm;
+  padding-left: 6mm;
 }
 #ct-two-columns  ul {
   margin: 0;
