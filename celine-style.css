@@ -212,7 +212,8 @@ header.with-photo #photo {
   margin-top: -4.4mm;
 }
 .xp .job {
-  padding: 2mm;
+  /* commented to reduce the size of job experience
+  padding: 2mm;*/
   box-sizing: border-box;
   width: 17.5cm;
   display: inline-block;
@@ -326,7 +327,7 @@ header.with-photo #photo {
     width: 51%;
 }
 #two-columns h4 {
-    margin-top: 5mm;
+    margin-top: 4mm;
 }
 /* NOT NEEDED WITH CELINE-STYLE USING BACKGROUND-COLOR
 #left h4 ,
