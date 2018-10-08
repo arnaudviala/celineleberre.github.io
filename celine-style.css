@@ -396,14 +396,23 @@ header.with-photo #photo {
     width: 46%;
 }
 
-#ct-two-columns h4 {
-    margin-top: 5mm;
+#ct-two-columns h5 {
+    margin-top: 3mm;
+    margin-bottom: 0;
+    font-size: 1em;
+    /*color: #008;*/
 }
-#ct-left h4 { /* padding pour le sous-titre */
+#ct-left h5 { /* padding pour le sous-titre */
   padding-left: 5mm;
 }
-#ct-right h4 {   /* special case for the right column */
-  padding-left: 0;
+#ct-right h5 {   /* special case for the right column */
+  padding-left: 3mm;
+}
+#ct-two-columns  ul {
+  margin: 0;
+}
+#ct-two-columns  ul > li ~ li { /* apply to all <LI> elements except first one */
+  margin-top: 3px; /* some space between <li> element */
 }
 
 /** Comment the next two CSS rules if you don't want the '>'
