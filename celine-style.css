@@ -412,9 +412,12 @@ header.with-photo #photo {
   /*color: #008;*/
   padding-left: 6mm;
 }
-#ct-two-columns  ul {
+#ct-two-columns ul {
   margin: 0;
   padding-left: 1cm;
+}
+#ct-two-columns #ct-right ul {
+  padding-right: 3mm; /* to be sure text is not too close to the edge */
 }
 #ct-two-columns  ul > li ~ li { /* apply to all <LI> elements except first one */
   margin-top: 3px; /* some space between <li> element */
