@@ -406,6 +406,22 @@ header.with-photo #photo {
   padding-left: 0;
 }
 
+/** Comment the next two CSS rules if you don't want the '>'
+ * as a bullet
+ */
+#ct-two-columns ul li {
+  position: relative;
+  list-style-type: none;
+}
+#ct-two-columns ul li:before {
+  position: absolute;
+  top: 0.5mm;
+  margin-left: -5mm;
+  font-family: 'Material Icons';
+  color: #666;
+  content: "navigate_next ";
+}
+
 
 /*
  * for CV2
