@@ -79,6 +79,9 @@ ul.w-label-7 label {
 ul.grey {
   background-color: #EEE;
 }
+ul.red {
+  background-color: #E00;
+}
 
 /*
  *
@@ -258,6 +261,45 @@ header.with-photo #photo {
   margin-left:0mm;
 }
 
+/*
+ *
+ * REALISATIONS
+ *
+ */
+#realisations h4 {
+  margin-top: 0.7cm;
+}
+.real {
+  margin: 4mm 0mm;
+  position: relative;
+  padding-left: 2.8cm;
+  z-index: 1;
+}
+.real .title {
+  width: 2.8cm;
+  display: inline-block;
+  vertical-align: top;
+  text-align: right;
+  font-weight: bold;
+  box-sizing: border-box;
+  background-color: #EEE;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  padding: 2mm;
+  z-index: -1;
+  color: blue;
+}
+
+.real .corps {
+  padding: 2mm;
+  box-sizing: border-box;
+  width: 17.5cm;
+  display: inline-block;
+  border-left: 3px solid #36a9e1;
+  padding-left: 3mm;
+  z-index: 2;
+}
 
 /*
  *
@@ -330,6 +372,77 @@ header.with-photo #photo {
   border-top: 1px solid #36a9e1;
 }
 
+
+/*
+ *
+ * Competences techniques using two columns
+ *
+ */
+
+#ct-two-columns {
+  margin-top: 0cm;
+}
+#ct-two-columns #left {
+    width: 45%;
+}
+#ct-two-columns #right {
+    width: 51%;
+}
+#ct-two-columns h4 {
+    margin-top: 5mm;
+}
+#ct-left h4 { /* padding pour le sous-titre */
+  padding-left: 5mm;
+}
+#ct-right h4 {   /* special case for the right column */
+  padding-left: 0;
+}
+
+/* using #left, it's common to #languages and #education */
+#ct-left ul > li {
+  margin: 2mm 0;
+}
+#ct-left ul > li > span.l {
+  background-color: #EEE;
+  padding-right: 1ex;
+  text-align: right;
+  display: inline-block;
+  width: 2.8cm;
+  font-weight: bold;
+}
+#ct-left ul > li > span.r {
+  border-left: 3px solid #36a9e1;
+  padding-left: 1ex;
+  display: inline-block;
+}
+#ct-left ul li span {
+  padding-top: 1mm;
+  padding-bottom: 1mm;
+  vertical-align: middle;
+  /* There's an alignment problem - 1px - between grey background (left span)
+   * and blue border (right span) due to the "bold" font on the left.
+   * A quick solution is to force a min-height to both cells */
+  min-height: 0.75cm;    box-sizing: border-box;
+}
+#ct-left ul {
+  padding-left: 0;
+}
+
+
+#ct-interests ul {
+  padding-left: 2mm;
+}
+
+
+#interests ul li {
+  padding-top: 2mm;
+  padding-bottom: 2mm;
+  padding-left: 2mm;
+  list-style: none;
+}
+#interests ul > li ~ li { /* apply to all <LI> elements except first one */
+  border-top: 1px solid #36a9e1;
+}
 
 /*
  * for CV2

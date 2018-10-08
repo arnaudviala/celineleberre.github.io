@@ -1,0 +1,36 @@
+/*
+ *
+ * REALISATIONS
+ *
+ */
+#realisations h4 {
+  margin-top: 0.2cm;
+  margin: 25mm;
+  border: 1px solid #3A2A6F;
+  box-sizing: border-box;
+  background-color: #3A2A6F;
+  width: 21cm;
+  padding: 5mm;
+  color: white;
+}
+.real {
+  margin: 5mm 5mm;
+  position: relative;
+}
+
+.real .title {
+  width: 2.8cm;
+  font-weight: bold;
+  font-size: 130%;
+  color: blue;
+}
+
+.real .corps {
+  margin: 25mm;
+  width: auto;
+}
+
+/* most often, I don't want to see list bullets */
+li {
+  list-style-type: none;  /* hide <LI> bullets */
+}
